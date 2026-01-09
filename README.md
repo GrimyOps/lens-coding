@@ -10,7 +10,7 @@
 **Lens Coding** is a lightweight, constraint-aware methodology for structuring how problems are framed *before* they are processed by an AI system.
 
 It does not modify AI models.  
-It does not make AI smarter.
+It does not make AI smarter. 
 It does not rely on hidden chain-of-thought.  
 It does not automate decisions.
 
