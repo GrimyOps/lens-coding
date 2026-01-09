@@ -16,7 +16,7 @@ It does not automate decisions.
 
 Instead, Lens Coding improves the quality and reliability of AI output by **structuring the context in which the model reasons**.
 
-Lens Coding is designed to make AI failure modes explicit, traceable, and containable in constraint-heavy, in medium to high-stakes environments.
+Lens Coding is designed to make AI failure modes **explicit, traceable, and containable** in constraint-heavy, medium- to high-stakes environments.
 
 In short:
 
