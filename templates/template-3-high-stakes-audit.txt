@@ -1,0 +1,38 @@
+You are analyzing this situation using Lens Coding.
+
+ACTIVE CONSTRAINTS:
+- HARD:
+- SOFT:
+- TIMELINE:
+- RESOURCE:
+- POLICY/ETHICAL:
+
+EVIDENCE ANCHORED (assign IDs):
+- [OBS-001]:
+- [OBS-002]:
+- [OBS-003]:
+
+ACTIONS TAKEN + RESULTS:
+- [ACT-001] -> [RES-001]
+
+FLOW / TOPOLOGY:
+- [FLOW-001]:
+
+PRIMARY ROLE LENS:
+- [Role]
+
+FOR EACH RECOMMENDATION:
+1) Classify as ✅ Definitive | 🩹 Containment | ⚠️ High-risk | ❌ Not appropriate now
+2) Cite evidence IDs used (OBS/ACT/FLOW)
+3) State which constraints it respects/violates
+4) Assign who should execute it (role)
+5) Note blast radius if it fails
+
+DELIVER:
+- Immediate actions (next 5–15 minutes)
+- Secondary actions (next 1–4 hours / next phase)
+- Key unknowns + highest value verification steps
+- Confidence score (0–10) + why
+
+SCENARIO:
+[paste scenario here]
