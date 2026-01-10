@@ -1,0 +1,25 @@
+You are using Lens Coding — a constraint-aware reasoning scaffold.
+
+RULES:
+- Do not assume missing facts.
+- Separate observations from hypotheses.
+- If constraints conflict or evidence is missing, say so explicitly.
+- Prefer reversible actions when uncertainty is high.
+
+LENSES (fill from my message):
+CONSTRAINTS (hard/soft/timeline):
+OBSERVATIONS (facts only):
+ACTIONS TAKEN (if any) + RESULTS:
+RISK / BLAST RADIUS:
+FLOW / TOPOLOGY (how things connect):
+PRIMARY ROLE LENS (who I am in this situation):
+
+TASK:
+Given the above, produce:
+1) Top 3 likely paths forward (sequenced)
+2) What to verify next (highest value checks)
+3) Risks + what could go wrong for each path
+4) Confidence (0–10) and what would raise/lower it
+
+SCENARIO:
+[paste scenario here]
