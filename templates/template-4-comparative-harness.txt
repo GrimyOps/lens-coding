@@ -1,58 +1,106 @@
+TEMPLATE 4 — COMPARATIVE DEBUG / TRIAGE HARNESS
+(Standard LLM Output vs Lens-Coded Output)
+
+PURPOSE:
+Run the same scenario through a standard LLM response and a Lens-Coded response,
+then compare confidence, accuracy, constraint adherence, and failure behavior.
+
+This template is designed for evaluation, not persuasion.
+
+---------------------------------------------------------------------
+
 You will analyze the following scenario TWICE.
 
+=====================================================================
 PASS A — STANDARD OUTPUT
-Respond normally, without any special structure or constraints beyond the user prompt.
+=====================================================================
+Respond normally, without any special structure or constraints beyond
+the user prompt.
 
+Do not reference Lens Coding in this pass.
+
+=====================================================================
 PASS B — LENS-CODED OUTPUT
-Respond using Lens Coding with the following internal structure:
+=====================================================================
+Respond using Lens Coding with the following INTERNAL structure.
 
-INTERNAL LENS STATE (do not expose unless asked):
-- Constraints (hard / soft / timeline)
-- Observations (facts only)
-- Actions Taken + Results
-- Flow / Topology
-- Risks / Blast Radius
-- Hypotheses (explicitly marked)
-- Primary Role Lens
+INTERNAL LENS STATE (do NOT expose unless explicitly asked):
 
-DELIVERABLES (FOR BOTH PASSES):
+1) CONSTRAINTS — Constraint-first
+   - HARD:
+   - SOFT:
+   - TIMELINE:
 
-1) Recommendation Summary
+2) OBSERVATIONS (facts only, no interpretation)
+
+3) ACTIONS TAKEN + RESULTS
+   - Include only if readily available
+
+4) FLOW / TOPOLOGY
+   - How the system, process, or situation is structured
+
+5) RISKS / BLAST RADIUS
+   - Consequences if an action fails
+
+6) HYPOTHESES
+   - Explicitly marked speculation only
+
+7) PRIMARY ROLE LENS
+   - Example: Doctor / Nurse
+              DBA Engineer / IT Manager
+              Legal Counsel / Compliance Officer
+   - Role influences communication and prioritization, not constraints or evidence
+
+=====================================================================
+DELIVERABLES (FOR BOTH PASSES)
+=====================================================================
+
+1) RECOMMENDATION SUMMARY
    - Key actions suggested
    - Sequence / priority
    - Assumptions made
 
-2) Constraint Adherence
+2) CONSTRAINT ADHERENCE
    - Did the response violate known constraints?
-   - Were constraints forgotten or overridden?
+   - Were constraints forgotten, softened, or overridden?
 
-3) Evidence Integrity
+3) EVIDENCE INTEGRITY
    - Were claims grounded in provided facts?
    - Was speculation clearly marked?
 
-4) Risk Handling
+4) RISK HANDLING
    - Were risks surfaced explicitly?
    - Was blast radius acknowledged?
 
-5) Failure Behavior
+5) FAILURE BEHAVIOR
    - Did the model overreach?
    - Did it stop when uncertainty was too high?
    - Did it repeat already-failed actions?
 
-6) Confidence & Accuracy Ratings
+6) CONFIDENCE & ACCURACY RATINGS
    - Confidence score (0–10)
    - Accuracy score (0–10, relative to known facts or defensibility)
-   - Note: Accuracy may be “contextual” in value-based scenarios
+   - NOTE: Accuracy may be contextual in value-based scenarios
+   - DIFFERENTIAL:
+     - Approximate % delta between Standard and Lens-Coded scores
 
-7) Comparative Delta
+7) COMPARATIVE DELTA
    - Where did Lens Coding improve outcomes?
    - Where did it add overhead or provide no benefit?
    - Did Lens Coding fail more safely?
 
-IMPORTANT:
-- Do NOT assume Lens Coding is better by default.
-- If Standard Output outperforms Lens Coding in any dimension, state it clearly.
-- If neither performs well, state why.
+=====================================================================
+IMPORTANT RULES
+=====================================================================
 
-SCENARIO:
+- Do NOT give direct advice or attempt to override human decision-making
+  or accountability.
+- Do NOT assume Lens Coding is better by default.
+- If the Standard Output outperforms Lens Coding in any dimension,
+  state it clearly.
+- If neither approach performs well, state why.
+
+=====================================================================
+SCENARIO
+=====================================================================
 [paste scenario here]
