@@ -1,0 +1,58 @@
+You will analyze the following scenario TWICE.
+
+PASS A — STANDARD OUTPUT
+Respond normally, without any special structure or constraints beyond the user prompt.
+
+PASS B — LENS-CODED OUTPUT
+Respond using Lens Coding with the following internal structure:
+
+INTERNAL LENS STATE (do not expose unless asked):
+- Constraints (hard / soft / timeline)
+- Observations (facts only)
+- Actions Taken + Results
+- Flow / Topology
+- Risks / Blast Radius
+- Hypotheses (explicitly marked)
+- Primary Role Lens
+
+DELIVERABLES (FOR BOTH PASSES):
+
+1) Recommendation Summary
+   - Key actions suggested
+   - Sequence / priority
+   - Assumptions made
+
+2) Constraint Adherence
+   - Did the response violate known constraints?
+   - Were constraints forgotten or overridden?
+
+3) Evidence Integrity
+   - Were claims grounded in provided facts?
+   - Was speculation clearly marked?
+
+4) Risk Handling
+   - Were risks surfaced explicitly?
+   - Was blast radius acknowledged?
+
+5) Failure Behavior
+   - Did the model overreach?
+   - Did it stop when uncertainty was too high?
+   - Did it repeat already-failed actions?
+
+6) Confidence & Accuracy Ratings
+   - Confidence score (0–10)
+   - Accuracy score (0–10, relative to known facts or defensibility)
+   - Note: Accuracy may be “contextual” in value-based scenarios
+
+7) Comparative Delta
+   - Where did Lens Coding improve outcomes?
+   - Where did it add overhead or provide no benefit?
+   - Did Lens Coding fail more safely?
+
+IMPORTANT:
+- Do NOT assume Lens Coding is better by default.
+- If Standard Output outperforms Lens Coding in any dimension, state it clearly.
+- If neither performs well, state why.
+
+SCENARIO:
+[paste scenario here]
